@@ -52,3 +52,4 @@ Note: the repository has a submodule, clone with --recursive.
 	doesnt have big enough buffers for operation at that speed.  
 	Commands would be (if you dont touch the defaults in Makefile):  
 	`DFLAGS=-DFTDI make clean all` and `SERIAL_DEV=/dev/ttyUSB0 make program`
+        `BLBAUD=57600 SERIAL_DEV=/dev/tty.wchusbserial1420 make program`
