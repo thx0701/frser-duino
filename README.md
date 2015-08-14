@@ -51,7 +51,9 @@ Note: the repository has a submodule, clone with --recursive.
 	with a maximum baudrate of 115200. Claims 2Mbaud but apparently
 	doesnt have big enough buffers for operation at that speed.  
 	Commands would be (if you dont touch the defaults in Makefile):  
-	`DFLAGS=-DFTDI make clean all` and `SERIAL_DEV=/dev/ttyUSB0 make program`
+	`DFLAGS=-DFTDI make clean all `and `SERIAL_DEV=/dev/ttyUSB0 make program`
+
+- A Nano clone  with with a CH340G:               
         `BLBAUD=57600 SERIAL_DEV=/dev/tty.wchusbserial1420 make program`
 
 How to use in flashrom   for CH340G version 
